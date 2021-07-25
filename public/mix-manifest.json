@@ -1,4 +1,10 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/litepicker.js": "/js/litepicker.js",
+    "/js/scripts.js": "/js/scripts.js",
+    "/js/toasts.js": "/js/toasts.js",
+    "/js/datatables/datatables-simple-demo.js": "/js/datatables/datatables-simple-demo.js",
+    "/css/app.css": "/css/app.css",
+    "/css/styles.css": "/css/styles.css"
 }
