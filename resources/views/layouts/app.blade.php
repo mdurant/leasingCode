@@ -48,7 +48,7 @@
             <!-- Documentation Dropdown-->
             <li class="nav-item dropdown no-caret d-none d-md-block me-3">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="fw-500">Documentation de Procesos</div>
+                    <div class="fw-500">Documentation del Sistema</div>
                     <i class="fas fa-chevron-right dropdown-arrow"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
@@ -64,15 +64,15 @@
                         <div class="icon-stack bg-primary-soft text-primary me-4"><i data-feather="code"></i></div>
                         <div>
                             <div class="small text-gray-500">Componentes</div>
-                            Code snippets and reference
+                            Referencia de buenas prácticas
                         </div>
                     </a>
                     <div class="dropdown-divider m-0"></div>
                     <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/changelog" target="_blank">
                         <div class="icon-stack bg-primary-soft text-primary me-4"><i data-feather="file-text"></i></div>
                         <div>
-                            <div class="small text-gray-500">Changelog</div>
-                            Updates and changes
+                            <div class="small text-gray-500">Log Activity</div>
+                            Actualizaciones del sistema.
                         </div>
                     </a>
                 </div>
@@ -103,7 +103,7 @@
                     <a class="dropdown-item dropdown-notifications-item" href="#!">
                         <div class="dropdown-notifications-item-icon bg-warning"><i data-feather="activity"></i></div>
                         <div class="dropdown-notifications-item-content">
-                            <div class="dropdown-notifications-item-content-details">echo $now->format('Y-m-d');</div>
+                            <div class="dropdown-notifications-item-content-details">{{ \Carbon\Carbon::now()->format('d/m/Y H:i:s a') }} </div>
                             <div class="dropdown-notifications-item-content-text">This is an alert message. It's nothing serious, but it requires your attention.</div>
                         </div>
                     </a>
@@ -111,7 +111,7 @@
                     <a class="dropdown-item dropdown-notifications-item" href="#!">
                         <div class="dropdown-notifications-item-icon bg-info"><i data-feather="bar-chart"></i></div>
                         <div class="dropdown-notifications-item-content">
-                            <div class="dropdown-notifications-item-content-details">December 22, 2021</div>
+                            <div class="dropdown-notifications-item-content-details">{{ \Carbon\Carbon::now()->format('d/m/Y H:i:s a') }} </div>
                             <div class="dropdown-notifications-item-content-text">A new monthly report is ready. Click here to view!</div>
                         </div>
                     </a>
@@ -119,7 +119,7 @@
                     <a class="dropdown-item dropdown-notifications-item" href="#!">
                         <div class="dropdown-notifications-item-icon bg-danger"><i class="fas fa-exclamation-triangle"></i></div>
                         <div class="dropdown-notifications-item-content">
-                            <div class="dropdown-notifications-item-content-details">December 8, 2021</div>
+                            <div class="dropdown-notifications-item-content-details">{{ \Carbon\Carbon::now()->format('d/m/Y H:i:s a') }} </div>
                             <div class="dropdown-notifications-item-content-text">Critical system failure, systems shutting down.</div>
                         </div>
                     </a>
@@ -127,7 +127,7 @@
                     <a class="dropdown-item dropdown-notifications-item" href="#!">
                         <div class="dropdown-notifications-item-icon bg-success"><i data-feather="user-plus"></i></div>
                         <div class="dropdown-notifications-item-content">
-                            <div class="dropdown-notifications-item-content-details">December 2, 2021</div>
+                            <div class="dropdown-notifications-item-content-details">{{ \Carbon\Carbon::now()->format('d/m/Y H:i:s a') }} </div>
                             <div class="dropdown-notifications-item-content-text">New user request. Woody has requested access to the organization.</div>
                         </div>
                     </a>
@@ -482,15 +482,15 @@
                         <div class="me-4 mb-3 mb-sm-0">
                             <h1 class="mb-0">Panel Principal</h1>
                             <div class="small">
-                                <span class="fw-500 text-primary">Domingo</span>
-                                &middot; September 20, 2021 &middot; 12:16 PM
+                                <span class="fw-500 text-primary">{{ \Carbon\Carbon::now()->locale('es')->dayName }}</span>
+                                &middot; {{ \Carbon\Carbon::now()->format('d/m/Y     H:i:s  A') }}
                             </div>
                         </div>
                         <!-- Date range picker example-->
-                        <div class="input-group input-group-joined border-0 shadow" style="width: 16.5rem">
+                        {{-- <div class="input-group input-group-joined border-0 shadow" style="width: 16.5rem">
                             <span class="input-group-text"><i data-feather="calendar"></i></span>
                             <input class="form-control ps-0 pointer" id="litepickerRangePlugin" placeholder="Select date range..." />
-                        </div>
+                        </div> --}}
                     </div>
                     <!-- Illustration dashboard card example-->
                     <div class="card card-waves mb-4 mt-5">
