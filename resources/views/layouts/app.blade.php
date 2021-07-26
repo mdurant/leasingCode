@@ -34,12 +34,12 @@
         <!-- * * Tip * * You can use text or an image for your navbar brand.-->
         <!-- * * * * * * When using an image, we recommend the SVG format.-->
         <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-        <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">SB Admin Pro</a>
+        <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">{{env ('APP_NAME_DASHBOARD')}}</a>
         <!-- Navbar Search Input-->
         <!-- * * Note: * * Visible only on and above the lg breakpoint-->
         <form class="form-inline me-auto d-none d-lg-block me-3">
             <div class="input-group input-group-joined input-group-solid">
-                <input class="form-control pe-0" type="search" placeholder="Search" aria-label="Search" />
+                <input class="form-control pe-0" type="search" placeholder="Buscar Registro" aria-label="Search" />
                 <div class="input-group-text"><i data-feather="search"></i></div>
             </div>
         </form>
@@ -180,19 +180,19 @@
             </li>
             <!-- User Dropdown-->
             <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
-                <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="assets/img/illustrations/profiles/profile-1.png" /></a>
+                <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="assets/img/illustrations/profiles/profile-2.png" /></a>
                 <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
                     <h6 class="dropdown-header d-flex align-items-center">
-                        <img class="dropdown-user-img" src="assets/img/illustrations/profiles/profile-1.png" />
+                        <img class="dropdown-user-img" src="assets/img/illustrations/profiles/profile-2.png" />
                         <div class="dropdown-user-details">
-                            <div class="dropdown-user-details-name">Valerie Luna</div>
-                            <div class="dropdown-user-details-email">vluna@aol.com</div>
+                            <div class="dropdown-user-details-name">Mauricio Duran</div>
+                            <div class="dropdown-user-details-email">hola@netcode.cl</div>
                         </div>
                     </h6>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#!">
                         <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
-                        Account
+                        Datos de la cuenta
                     </a>
                     <a class="dropdown-item" href="#!">
                         <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
@@ -229,10 +229,10 @@
                         <!-- Sidenav Accordion (Dashboard)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
                             <div class="nav-link-icon"><i data-feather="activity"></i></div>
-                            Dashboards
-                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            Dashboard
+
                         </a>
-                        <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+                        {{-- <div class="collapse" id="collapseDashboards" data-bs-parent="#accordionSidenav">
                             <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
                                 <a class="nav-link" href="dashboard-1.html">
                                     Default
@@ -241,7 +241,7 @@
                                 <a class="nav-link" href="dashboard-2.html">Multipurpose</a>
                                 <a class="nav-link" href="dashboard-3.html">Affiliate</a>
                             </nav>
-                        </div>
+                        </div> --}}
                         <!-- Sidenav Heading (App Views)-->
                         <div class="sidenav-menu-heading">App Views</div>
                         <!-- Sidenav Accordion (Pages)-->
@@ -480,9 +480,9 @@
                     <!-- Custom page header alternative example-->
                     <div class="d-flex justify-content-between align-items-sm-center flex-column flex-sm-row mb-4">
                         <div class="me-4 mb-3 mb-sm-0">
-                            <h1 class="mb-0">Dashboard</h1>
+                            <h1 class="mb-0">Panel Principal</h1>
                             <div class="small">
-                                <span class="fw-500 text-primary">Friday</span>
+                                <span class="fw-500 text-primary">Domingo</span>
                                 &middot; September 20, 2021 &middot; 12:16 PM
                             </div>
                         </div>
@@ -497,12 +497,12 @@
                         <div class="card-body p-5">
                             <div class="row align-items-center justify-content-between">
                                 <div class="col">
-                                    <h2 class="text-primary">Welcome back, your dashboard is ready!</h2>
-                                    <p class="text-gray-700">Great job, your affiliate dashboard is ready to go! You can view sales, generate links, prepare coupons, and download affiliate reports using this dashboard.</p>
-                                    <a class="btn btn-primary p-3" href="#!">
+                                    <h2 class="text-primary">Bienvenido, su tablero de trabajo está listo.</h2>
+                                    <p class="text-gray-700">Hola Bienvenido a <b>Leasing Code</b>, ¡tú panel de control de operaciones Leasing está listo para funcionar! Puedes ver las ventas, generar contratos, listar bienes, generar consultas al sistema, fusionar operaciones, generar enlaces de trabajo para compartir de forma segura en el proceso Leasing, asignar trabajos, crear usuarios, modificar perfiles, asignaciones de reempalzo de ejecutivos, modificar y/o crear workflow de trabajos,  preparar cotizaciones y descargar y cerrar con informes de proceso de fin de día utilizando este panel.</p>
+                                    {{-- <a class="btn btn-primary p-3" href="#!">
                                         Get Started
                                         <i class="ms-1" data-feather="arrow-right"></i>
-                                    </a>
+                                    </a> --}}
                                 </div>
                                 <div class="col d-none d-lg-block mt-xxl-n4"><img class="img-fluid px-xl-4 mt-xxl-n5" src="assets/img/illustrations/statistics.svg" /></div>
                             </div>
@@ -515,8 +515,8 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                            <div class="small fw-bold text-primary mb-1">Earnings (monthly)</div>
-                                            <div class="h5">$4,390</div>
+                                            <div class="small fw-bold text-primary mb-1">Cotizaciones (mes: Julio)</div>
+                                            <div class="h5">$2.200 MM</div>
                                             <div class="text-xs fw-bold text-success d-inline-flex align-items-center">
                                                 <i class="me-1" data-feather="trending-up"></i>
                                                 12%
@@ -533,14 +533,14 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                            <div class="small fw-bold text-secondary mb-1">Average sale price</div>
+                                            <div class="small fw-bold text-secondary mb-1">Leasing Express (mes: Julio)</div>
                                             <div class="h5">$27.00</div>
                                             <div class="text-xs fw-bold text-danger d-inline-flex align-items-center">
                                                 <i class="me-1" data-feather="trending-down"></i>
                                                 3%
                                             </div>
                                         </div>
-                                        <div class="ms-2"><i class="fas fa-tag fa-2x text-gray-200"></i></div>
+                                        <div class="ms-2"><i class="fas fa-file-invoice-dollar fa-2x text-gray-200"></i></div>
                                     </div>
                                 </div>
                             </div>
@@ -551,14 +551,14 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                            <div class="small fw-bold text-success mb-1">Clicks</div>
+                                            <div class="small fw-bold text-success mb-1">Contratos</div>
                                             <div class="h5">11,291</div>
                                             <div class="text-xs fw-bold text-success d-inline-flex align-items-center">
                                                 <i class="me-1" data-feather="trending-up"></i>
                                                 12%
                                             </div>
                                         </div>
-                                        <div class="ms-2"><i class="fas fa-mouse-pointer fa-2x text-gray-200"></i></div>
+                                        <div class="ms-2"><i class="far fa-building fa-2x text-gray-200"></i></div>
                                     </div>
                                 </div>
                             </div>
@@ -569,14 +569,14 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-grow-1">
-                                            <div class="small fw-bold text-info mb-1">Conversion rate</div>
+                                            <div class="small fw-bold text-info mb-1">Listado de Bienes</div>
                                             <div class="h5">1.23%</div>
-                                            <div class="text-xs fw-bold text-danger d-inline-flex align-items-center">
-                                                <i class="me-1" data-feather="trending-down"></i>
-                                                1%
+                                            <div class="text-xs fw-bold text-success d-inline-flex align-items-center">
+                                                <i class="me-1" data-feather="trending-up"></i>
+                                                13%
                                             </div>
                                         </div>
-                                        <div class="ms-2"><i class="fas fa-percentage fa-2x text-gray-200"></i></div>
+                                        <div class="ms-2"><i class="fas fa-tasks fa-2x text-gray-200"></i></div>
                                     </div>
                                 </div>
                             </div>
@@ -588,40 +588,40 @@
                             <div class="card mb-4">
                                 <div class="card-body text-center p-5">
                                     <img class="img-fluid mb-5" src="assets/img/illustrations/data-report.svg" />
-                                    <h4>Report generation</h4>
-                                    <p class="mb-4">Ready to get started? Let us know now! It's time to start building that dashboard you've been waiting to create!</p>
+                                    <h4>Generación de Reporte</h4>
+                                    <p class="mb-4">Listo para comenzar?, hemos creado un set personalizados entre secciones Comercial, Operaciones, Alta Generencia para extracción de Reportes on Demand y desarrollo a la medida.</p>
                                     <a class="btn btn-primary p-3" href="#!">Continue</a>
                                 </div>
                             </div>
                             <!-- Report summary card example-->
                             <div class="card mb-4">
-                                <div class="card-header">Affiliate Reports</div>
+                                <div class="card-header">Reportes Leasing Code App</div>
                                 <div class="list-group list-group-flush small">
                                     <a class="list-group-item list-group-item-action" href="#!">
                                         <i class="fas fa-dollar-sign fa-fw text-blue me-2"></i>
-                                        Earnings Reports
+                                        Cotizaciones
                                     </a>
                                     <a class="list-group-item list-group-item-action" href="#!">
                                         <i class="fas fa-tag fa-fw text-purple me-2"></i>
-                                        Average Sale Price
+                                        Contratos Pendientes de Curse
                                     </a>
                                     <a class="list-group-item list-group-item-action" href="#!">
                                         <i class="fas fa-mouse-pointer fa-fw text-green me-2"></i>
-                                        Engagement (Clicks &amp; Impressions)
+                                        Contratos Finalizados
                                     </a>
                                     <a class="list-group-item list-group-item-action" href="#!">
                                         <i class="fas fa-percentage fa-fw text-yellow me-2"></i>
-                                        Conversion Rate
+                                        Reversa de Operaciones
                                     </a>
                                     <a class="list-group-item list-group-item-action" href="#!">
                                         <i class="fas fa-chart-pie fa-fw text-pink me-2"></i>
-                                        Segments
+                                        Tipos de Bienes (Mueble /Inmueble)
                                     </a>
                                 </div>
                                 <div class="card-footer position-relative border-top-0">
                                     <a class="stretched-link" href="#!">
                                         <div class="text-xs d-flex align-items-center justify-content-between">
-                                            View More Reports
+                                            Ver Más Reportes
                                             <i class="fas fa-long-arrow-alt-right"></i>
                                         </div>
                                     </a>
@@ -630,10 +630,10 @@
                             <!-- Progress card example-->
                             <div class="card bg-primary border-0">
                                 <div class="card-body">
-                                    <h5 class="text-white-50">Budget Overview</h5>
+                                    <h5 class="text-white-50">Volumen Operaciones</h5>
                                     <div class="mb-4">
-                                        <span class="display-4 text-white">$48k</span>
-                                        <span class="text-white-50">per year</span>
+                                        <span class="display-4 text-white">$360k</span>
+                                        <span class="text-white-50">por año (operaciones leasing)</span>
                                     </div>
                                     <div class="progress bg-white-25 rounded-pill" style="height: 0.5rem"><div class="progress-bar bg-white w-75 rounded-pill" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div></div>
                                 </div>
@@ -642,7 +642,7 @@
                         <div class="col-lg-8 mb-4">
                             <!-- Area chart example-->
                             <div class="card mb-4">
-                                <div class="card-header">Revenue Summary</div>
+                                <div class="card-header">Resumen de Ingresos</div>
                                 <div class="card-body">
                                     <div class="chart-area"><canvas id="myAreaChart" width="100%" height="30"></canvas></div>
                                 </div>
@@ -651,14 +651,14 @@
                                 <div class="col-lg-6">
                                     <!-- Bar chart example-->
                                     <div class="card h-100">
-                                        <div class="card-header">Sales Reporting</div>
+                                        <div class="card-header">Informes de Venta</div>
                                         <div class="card-body d-flex flex-column justify-content-center">
                                             <div class="chart-bar"><canvas id="myBarChart" width="100%" height="30"></canvas></div>
                                         </div>
                                         <div class="card-footer position-relative">
                                             <a class="stretched-link" href="#!">
                                                 <div class="text-xs d-flex align-items-center justify-content-between">
-                                                    View More Reports
+                                                    Ve más Reportes
                                                     <i class="fas fa-long-arrow-alt-right"></i>
                                                 </div>
                                             </a>
@@ -668,28 +668,28 @@
                                 <div class="col-lg-6">
                                     <!-- Pie chart example-->
                                     <div class="card h-100">
-                                        <div class="card-header">Traffic Sources</div>
+                                        <div class="card-header">Tipos de Operaciones Generadas</div>
                                         <div class="card-body">
                                             <div class="chart-pie mb-4"><canvas id="myPieChart" width="100%" height="50"></canvas></div>
                                             <div class="list-group list-group-flush">
                                                 <div class="list-group-item d-flex align-items-center justify-content-between small px-0 py-2">
                                                     <div class="me-3">
                                                         <i class="fas fa-circle fa-sm me-1 text-blue"></i>
-                                                        Direct
+                                                        Leasing Express
                                                     </div>
                                                     <div class="fw-500 text-dark">55%</div>
                                                 </div>
                                                 <div class="list-group-item d-flex align-items-center justify-content-between small px-0 py-2">
                                                     <div class="me-3">
                                                         <i class="fas fa-circle fa-sm me-1 text-purple"></i>
-                                                        Social
+                                                        Vehiculos (flotas)
                                                     </div>
                                                     <div class="fw-500 text-dark">15%</div>
                                                 </div>
                                                 <div class="list-group-item d-flex align-items-center justify-content-between small px-0 py-2">
                                                     <div class="me-3">
                                                         <i class="fas fa-circle fa-sm me-1 text-green"></i>
-                                                        Referral
+                                                        Bienes Raices
                                                     </div>
                                                     <div class="fw-500 text-dark">30%</div>
                                                 </div>
@@ -704,13 +704,12 @@
             </main>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
+    {{-- <script src="{{ asset('js/scripts.js') }}></script> --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" crossorigin="anonymous"></script>
-    <script src="assets/demo/chart-area-demo.js"></script>
-    <script src="assets/demo/chart-bar-demo.js"></script>
-    <script src="assets/demo/chart-pie-demo.js"></script>
+    <script src="{{ asset('assets/demo/chart-area-demo.js') }}"></script>
+    <script src="{{ asset('assets/demo/chart-bar-demo.js') }}"></script>
+    <script src="{{ asset('assets/demo/chart-pie-demo.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js" crossorigin="anonymous"></script>
-    <script src="js/litepicker.js"></script>
+    <script src ="{{ asset ('js/litepicker.js')}}"></script>
 </body>
 </html>
