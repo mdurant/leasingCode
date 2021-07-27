@@ -225,7 +225,7 @@
                             <span class="badge bg-success-soft text-success ms-auto">2 New!</span>
                         </a>
                         <!-- Sidenav Menu Heading (Core)-->
-                        <div class="sidenav-menu-heading">Core</div>
+                        <div class="sidenav-menu-heading">Core Leasing</div>
                         <!-- Sidenav Accordion (Dashboard)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
                             <div class="nav-link-icon"><i data-feather="activity"></i></div>
@@ -242,12 +242,12 @@
                                 <a class="nav-link" href="dashboard-3.html">Affiliate</a>
                             </nav>
                         </div> --}}
-                        <!-- Sidenav Heading (App Views)-->
-                        <div class="sidenav-menu-heading">App Views</div>
+                        <!-- Sidenav Heading (APP Work)-->
+                        <div class="sidenav-menu-heading">APP Leasing</div>
                         <!-- Sidenav Accordion (Pages)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                             <div class="nav-link-icon"><i data-feather="grid"></i></div>
-                            Pages
+                            Operaciones
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
@@ -335,7 +335,7 @@
                         <!-- Sidenav Accordion (Flows)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
                             <div class="nav-link-icon"><i data-feather="repeat"></i></div>
-                            Flows
+                            Comercial
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
