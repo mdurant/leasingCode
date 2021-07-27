@@ -209,7 +209,7 @@
                     <div class="nav accordion" id="accordionSidenav">
                         <!-- Sidenav Menu Heading (Account)-->
                         <!-- * * Note: * * Visible only on and above the sm breakpoint-->
-                        <div class="sidenav-menu-heading d-sm-none">Account</div>
+                        <div class="sidenav-menu-heading d-sm-none">Administracón Negocio</div>
                         <!-- Sidenav Link (Alerts)-->
                         <!-- * * Note: * * Visible only on and above the sm breakpoint-->
                         <a class="nav-link d-sm-none" href="#!">
@@ -244,112 +244,122 @@
                         </div> --}}
                         <!-- Sidenav Heading (APP Work)-->
                         <div class="sidenav-menu-heading">APP Leasing</div>
-                        <!-- Sidenav Accordion (Pages)-->
+                        <!-- Sidenav Accordion (Backoffice)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
-                            <div class="nav-link-icon"><i data-feather="grid"></i></div>
-                            Operaciones
+                            <div class="nav-link-icon"><i class="fas fa-file-invoice"></i></div>
+                            BackOffice
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
                             <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
-                                <!-- Nested Sidenav Accordion (Pages -> Account)-->
+                                <!-- Nested Sidenav Accordion (Pages -> Clientes)-->
                                 <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAccount" aria-expanded="false" aria-controls="pagesCollapseAccount">
-                                    Account
+                                    Gestión de Clientes
                                     <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                 </a>
                                 <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu">
                                     <nav class="sidenav-menu-nested nav">
-                                        <a class="nav-link" href="account-profile.html">Profile</a>
-                                        <a class="nav-link" href="account-billing.html">Billing</a>
-                                        <a class="nav-link" href="account-security.html">Security</a>
-                                        <a class="nav-link" href="account-notifications.html">Notifications</a>
+                                        <a class="nav-link" href="#">Listado Completo</a>
+                                        <a class="nav-link" href="#">Ticket Clientes (Temp)</a>
+                                        <a class="nav-link" href="#">Sucursales/Facturación</a>
+                                        <a class="nav-link" href="#">Mantención PAC</a>
+                                        <a class="nav-link" href="#">Notificaciones Clientes</a>
                                     </nav>
                                 </div>
-                                <!-- Nested Sidenav Accordion (Pages -> Authentication)-->
+                                <!-- Nested Sidenav Accordion (Pages -> Contatos)-->
                                 <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                    Authentication
+                                    Gestión de Contratos
                                     <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                 </a>
                                 <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
                                     <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
                                         <!-- Nested Sidenav Accordion (Pages -> Authentication -> Basic)-->
                                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthBasic" aria-expanded="false" aria-controls="pagesCollapseAuthBasic">
-                                            Basic
+                                            Proceso Contratos
                                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                         </a>
-                                        <div class="collapse" id="pagesCollapseAuthBasic" data-bs-parent="#accordionSidenavPagesAuth">
-                                            <nav class="sidenav-menu-nested nav">
-                                                <a class="nav-link" href="auth-login-basic.html">Login</a>
-                                                <a class="nav-link" href="auth-register-basic.html">Register</a>
-                                                <a class="nav-link" href="auth-password-basic.html">Forgot Password</a>
-                                            </nav>
-                                        </div>
                                         <!-- Nested Sidenav Accordion (Pages -> Authentication -> Social)-->
                                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial">
-                                            Social
+                                            Proceso Cotizaciones
                                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                         </a>
-                                        <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
-                                            <nav class="sidenav-menu-nested nav">
-                                                <a class="nav-link" href="auth-login-social.html">Login</a>
-                                                <a class="nav-link" href="auth-register-social.html">Register</a>
-                                                <a class="nav-link" href="auth-password-social.html">Forgot Password</a>
-                                            </nav>
-                                        </div>
+                                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthBasic" aria-expanded="false" aria-controls="pagesCollapseAuthBasic">
+                                            Template Cotización
+                                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                        </a>
                                     </nav>
                                 </div>
-                                <!-- Nested Sidenav Accordion (Pages -> Error)-->
+                                <!-- Nested Sidenav Accordion (Pages -> Bienes)-->
                                 <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                                    Error
+                                    Gestión de Bienes
                                     <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                 </a>
                                 <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
                                     <nav class="sidenav-menu-nested nav">
-                                        <a class="nav-link" href="error-400.html">400 Error</a>
-                                        <a class="nav-link" href="error-401.html">401 Error</a>
-                                        <a class="nav-link" href="error-403.html">403 Error</a>
-                                        <a class="nav-link" href="error-404-1.html">404 Error 1</a>
-                                        <a class="nav-link" href="error-404-2.html">404 Error 2</a>
-                                        <a class="nav-link" href="error-500.html">500 Error</a>
-                                        <a class="nav-link" href="error-503.html">503 Error</a>
-                                        <a class="nav-link" href="error-504.html">504 Error</a>
+                                        <a class="nav-link" href="#">Bienes Recuperados</a>
+                                        <a class="nav-link" href="#">Contribuciones</a>
+                                        <a class="nav-link" href="#">Listado Bienes Muebles</a>
+                                        <a class="nav-link" href="#">Listado Bienes Inmuebles</a>
+                                        <a class="nav-link" href="#">Gastos de Bienes</a>
+                                        <a class="nav-link" href="#">Leasing Express</a>
                                     </nav>
                                 </div>
                                 <!-- Nested Sidenav Accordion (Pages -> Knowledge Base)-->
                                 <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseKnowledgeBase" aria-expanded="false" aria-controls="pagesCollapseKnowledgeBase">
-                                    Knowledge Base
+                                   Facturación
                                     <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                 </a>
-                                <div class="collapse" id="pagesCollapseKnowledgeBase" data-bs-parent="#accordionSidenavPagesMenu">
-                                    <nav class="sidenav-menu-nested nav">
-                                        <a class="nav-link" href="knowledge-base-home-1.html">Home 1</a>
-                                        <a class="nav-link" href="knowledge-base-home-2.html">Home 2</a>
-                                        <a class="nav-link" href="knowledge-base-category.html">Category</a>
-                                        <a class="nav-link" href="knowledge-base-article.html">Article</a>
-                                    </nav>
-                                </div>
-                                <a class="nav-link" href="pricing.html">Pricing</a>
-                                <a class="nav-link" href="invoice.html">Invoice</a>
                             </nav>
                         </div>
-                        <!-- Sidenav Accordion (Flows)-->
+                        <!-- Sidenav Accordion (Comercial)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
-                            <div class="nav-link-icon"><i data-feather="repeat"></i></div>
+                            <div class="nav-link-icon"><i class="far fa-id-badge"></i></div>
                             Comercial
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
                             <nav class="sidenav-menu-nested nav">
-                                <a class="nav-link" href="multi-tenant-select.html">Multi-Tenant Registration</a>
-                                <a class="nav-link" href="wizard.html">Wizard</a>
+                                <a class="nav-link" href="#">Gestión de Cotizaciones</a>
+                                <a class="nav-link" href="#">Gestión de Contratos</a>
+                            </nav>
+                        </div>
+                        <!-- Sidenav Accordion (Contabilidad)-->
+                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#contabilidad" aria-expanded="false" aria-controls="contabilidad">
+                            <div class="nav-link-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                            Contabilidad
+                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="contabilidad" data-bs-parent="#accordionSidenav">
+                            <nav class="sidenav-menu-nested nav">
+                                <a class="nav-link" href="#">Proceso Contable</a>
+                                <a class="nav-link" href="#">Libros Contables</a>
+                                <a class="nav-link" href="#">Plan Contable</a>
+                                <a class="nav-link" href="#">Voucher Contable</a>
+                                <a class="nav-link" href="#">Reportes Contables</a>
+                            </nav>
+                        </div>
+
+                        <!-- Sidenav Accordion (Tesorería)-->
+                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#tesoreria" aria-expanded="false" aria-controls="contabilidad">
+                            <div class="nav-link-icon"><i class="fas fa-donate"></i></i></div>
+                            Tesoreria
+                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="tesoreria" data-bs-parent="#accordionSidenav">
+                            <nav class="sidenav-menu-nested nav">
+                                <a class="nav-link" href="#">Proceso Contable</a>
+                                <a class="nav-link" href="#">Libros Contables</a>
+                                <a class="nav-link" href="#">Plan Contable</a>
+                                <a class="nav-link" href="#">Voucher Contable</a>
+                                <a class="nav-link" href="#">Reportes Contables</a>
                             </nav>
                         </div>
                         <!-- Sidenav Heading (UI Toolkit)-->
-                        <div class="sidenav-menu-heading">UI Toolkit</div>
+                        <div class="sidenav-menu-heading">Leasing Toolkit</div>
                         <!-- Sidenav Accordion (Layout)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="nav-link-icon"><i data-feather="layout"></i></div>
-                            Layout
+                            Leasing Express
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
@@ -406,15 +416,15 @@
                         </div>
                         <!-- Sidenav Accordion (Components)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
-                            <div class="nav-link-icon"><i data-feather="package"></i></div>
-                            Components
+                            <div class="nav-link-icon"><i class="fas fa-file-invoice"></i></div>
+                            Template de Contratos
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
                             <nav class="sidenav-menu-nested nav">
-                                <a class="nav-link" href="alerts.html">Alerts</a>
-                                <a class="nav-link" href="avatars.html">Avatars</a>
-                                <a class="nav-link" href="badges.html">Badges</a>
+                                <a class="nav-link" href="alerts.html">Backoffice</a>
+                                <a class="nav-link" href="avatars.html">Cobranza</a>
+                                <a class="nav-link" href="badges.html">Consultas</a>
                                 <a class="nav-link" href="buttons.html">Buttons</a>
                                 <a class="nav-link" href="cards.html">
                                     Cards
@@ -437,38 +447,61 @@
                         <!-- Sidenav Accordion (Utilities)-->
                         <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
                             <div class="nav-link-icon"><i data-feather="tool"></i></div>
-                            Utilities
+                            Utilidades Leasing
                             <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                         </a>
                         <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
                             <nav class="sidenav-menu-nested nav">
-                                <a class="nav-link" href="animations.html">Animations</a>
-                                <a class="nav-link" href="background.html">Background</a>
-                                <a class="nav-link" href="borders.html">Borders</a>
-                                <a class="nav-link" href="lift.html">Lift</a>
-                                <a class="nav-link" href="shadows.html">Shadows</a>
-                                <a class="nav-link" href="typography.html">Typography</a>
+                                <a class="nav-link" href="#">Log de Sistema</a>
+                                <a class="nav-link" href="#">Gestión Usuarios</a>
+                                <a class="nav-link" href="#">Roles/Autorizaciones</a>
+                                <a class="nav-link" href="#">Sevidor</a>
                             </nav>
                         </div>
+                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApi" aria-expanded="false" aria-controls="collapseApi">
+                            <div class="nav-link-icon"><i class="far fa-file-code"></i></div>
+                            API Leasing
+                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
                         <!-- Sidenav Heading (Addons)-->
-                        <div class="sidenav-menu-heading">Plugins</div>
+                        <div class="sidenav-menu-heading">Reportes</div>
                         <!-- Sidenav Link (Charts)-->
+                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseReportesNormativos" aria-expanded="false" aria-controls="collapseReportesNormativos">
+                            <div class="nav-link-icon"><i class="fas fa-bullhorn"></i></div>
+                           Normativos
+                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseReportesNormativos" data-bs-parent="#accordionSidenav">
+                            <nav class="sidenav-menu-nested nav">
+                                <a class="nav-link" href="#">Reporte C13</a>
+                                <a class="nav-link" href="#">Reporte D21</a>
+                                <a class="nav-link" href="#">Reporte D22</a>
+                                <a class="nav-link" href="#">Reporte D27</a>
+                                <a class="nav-link" href="#">Reporte Fogape</a>
+                            </nav>
+                        </div>
+                        <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseReportesInternos" aria-expanded="false" aria-controls="collapseReportesInternos">
+                            <div class="nav-link-icon"><i class="fas fa-chart-pie"></i></div>
+                           Internos (Banco)
+                            <div class="sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
                         <a class="nav-link" href="charts.html">
                             <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
-                            Charts
+                            Gráficos de Decisión
                         </a>
                         <!-- Sidenav Link (Tables)-->
-                        <a class="nav-link" href="tables.html">
+
+                        <a class="nav-link" href="{{ app('router')->has('dashboard.tabla_clientes') ? route('dashboard.tabla_clientes') : url('dashboard/tabla_clientes') }}">
                             <div class="nav-link-icon"><i data-feather="filter"></i></div>
-                            Tables
+                            Tablas de Trabajo
                         </a>
                     </div>
                 </div>
                 <!-- Sidenav Footer-->
                 <div class="sidenav-footer">
                     <div class="sidenav-footer-content">
-                        <div class="sidenav-footer-subtitle">Logged in as:</div>
-                        <div class="sidenav-footer-title">Valerie Luna</div>
+                        <div class="sidenav-footer-subtitle">Logueado como:</div>
+                        <div class="sidenav-footer-title">Mauricio Durán Tores  -  desde: 10:00:12 AM - 27-07-2021</div>
                     </div>
                 </div>
             </nav>
