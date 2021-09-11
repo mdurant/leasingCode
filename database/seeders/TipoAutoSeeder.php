@@ -19,6 +19,6 @@ class TipoAutoSeeder extends Seeder
         tipoAuto::create(['id'=>3, 'nombre'=>'FURGON']);
         tipoAuto::create(['id'=>4, 'nombre'=>'JEEP']);
         tipoAuto::create(['id'=>5, 'nombre'=>'MINIBUS']);
-        tipoAuto::create(['id'=>6, 'nombre'=>'STATION WAGON']);
+        tipoAuto::create(['id'=>8, 'nombre'=>'STATION WAGON']);
     }
 }
