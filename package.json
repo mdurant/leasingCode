@@ -46,5 +46,8 @@
     "bugs": {
         "url": "https://github.com/mdurant/leasingCode/issues"
     },
-    "homepage": "https://github.com/mdurant/leasingCode#readme"
+    "homepage": "https://github.com/mdurant/leasingCode#readme",
+    "dependencies": {
+        "pandas": "0.0.3"
+    }
 }

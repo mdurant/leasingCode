@@ -1,347 +1,347 @@
-id;codigo;nombre;provincia_id
-1;1101; Iquique;11
-2;1107; Alto Hospicio;11
-3;1401; Pozo Almonte;14
-4;1402; Cami�;14
-5;1403; Colchane;14
-6;1404; Huara;14
-7;1405; Pica;14
-8;2101; Antofagasta;21
-9;2102; Mejillones;21
-10;2103; Sierra Gorda;21
-11;2104; Taltal;21
-12;2201; Calama;22
-13;2202; Ollag�;22
-14;2203; San Pedro de Atacama;22
-15;2301; Tocopilla;23
-16;2302; Mar���;23
-17;3101; Copiapó;31
-18;3102; Caldera;31
-19;3103; Tierra Amarilla;31
-20;3201; Cha��;32
-21;3202; Diego de Almagro;32
-22;3301; Vallenar;33
-23;3302; Alto del Carmen;33
-24;3303; Freirina;33
-25;3304; Huasco;33
-26;4101; La Serena;41
-27;4102; Coquimbo;41
-28;4103; Andacollo;41
-29;4104; La Higuera;41
-30;4105; Paihuano;41
-31;4106; Vicu�;41
-32;4201; Illapel;42
-33;4202; Canela;42
-34;4203; Los Vilos;42
-35;4204; Salamanca;42
-36;4301; Ovalle;43
-37;4302; Combarbalá;43
-38;4303; Monte Patria;43
-39;4304; Punitaqui;43
-40;4305; Río Hurtado;43
-41;5101; Valparaíso;51
-42;5102; Casablanca;51
-43;5103; Concón;51
-44;5104; Juan Fernandez;51
-45;5105; Puchuncaví;51
-46;5107; Quintero;51
-47;5109; Viña del Mar;51
-48;5201; Isla de Pascua;52
-49;5301; Los Andes;53
-50;5302; Calle Larga;53
-51;5303; Rinconada;53
-52;5304; San Esteban;53
-53;5401; La Ligua;54
-54;5402; Cabildo;54
-55;5403; Papudo;54
-56;5404; Petorca;54
-57;5405; Zapallar;54
-58;5501; Quillota;55
-59;5502; La Calera;55
-60;5503; Hijuelas;55
-61;5504; La Cruz;55
-62;5506; Nogales;55
-63;5601; San Antonio;56
-64;5602; Algarrobo;56
-65;5603; Cartagena;56
-66;5604; El Quisco;56
-67;5605; El Tabo;56
-68;5606; Santo Domingo;56
-69;5701; San Felipe;57
-70;5702; Catemu;57
-71;5703; Llay Llay;57
-72;5704; Panquehue;57
-73;5705; Putaendo;57
-74;5706; Santa Mar�;57
-75;5801; Quilpué58
-76;5802; Limache;58
-77;5803; Olmué;58
-78;5804; Villa Alemana;58
-79;6101; Rancagua;61
-80;6102; Codegua;61
-81;6103; Coinco;61
-82;6104; Coltauco;61
-83;6105; Do��;61
-84;6106; Graneros;61
-85;6107; Las Cabras;61
-86;6108; Machalí;61
-87;6109; Malloa;61
-88;6110; Mostazal;61
-89;6111; Olivar;61
-90;6112; Peumo;61
-91;6113; Pichidegua;61
-92;6114; Quinta de Tilcoco;61
-93;6115; Rengo;61
-94;6116; Requínoa;61
-95;6117; San Vicente;61
-96;6201; Pichilemu;62
-97;6202; La Estrella;62
-98;6203; Litueche;62
-99;6204; Marchihue;62
-100;6205; Navidad;62
-101;6206; Paredones;62
-102;6301; San Fernando;63
-103;6302; Ch��;63
-104;6303; Chimbarongo;63
-105;6304; Lolol;63
-106;6305; Nancagua;63
-107;6306; Palmilla;63
-108;6307; Peralillo;63
-109;6308; Placilla;63
-110;6309; Pumanque;63
-111;6310; Santa Cruz;63
-112;7101; Talca;71
-113;7102; Constituci�;71
-114;7103; Curepto;71
-115;7104; Empedrado;71
-116;7105; Maule;71
-117;7106; Pelarco;71
-118;7107; Pencahue;71
-119;7108; R���;71
-120;7109; San Clemente;71
-121;7110; San Rafael;71
-122;7201; Cauquenes;72
-123;7202; Chanco;72
-124;7203; Pelluhue;72
-125;7301; Curicó;73
-126;7302; Hualahué;73
-127;7303; Licant�;73
-128;7304; Molina;73
-129;7305; Rauco;73
-130;7306; Romeral;73
-131;7307; Sagrada Familia;73
-132;7308; Teno;73
-133;7309; Vichuqu�;73
-134;7401; Linares;74
-135;7402; Colb�;74
-136;7403; Longaví;74
-137;7404; Parral;74
-138;7405; Retiro;74
-139;7406; San Javier;74
-140;7407; Villa Alegre;74
-141;7408; Yerbas Buenas;74
-142;8101; Concepci�;81
-143;8102; Coronel;81
-144;8103; Chiguayante;81
-145;8104; Florida;81
-146;8105; Hualqui;81
-147;8106; Lota;81
-148;8107; Penco;81
-149;8108; San Pedro de la Paz;81
-150;8109; Santa Juana;81
-151;8110; Talcahuano;81
-152;8111; Tomé;81
-153;8112; Hualp�;81
-154;8201; Lebu;82
-155;8202; Arauco;82
-156;8203; Cañete;82
-157;8204; Contulmo;82
-158;8205; Curanilahue;82
-159;8206; Los Álamos;82
-160;8207; Tirúa;82
-161;8301; Los Ángeles;83
-162;8302; Antuco;83
-163;8303; Cabrero;83
-164;8304; Laja;83
-165;8305; Mulch�;83
-166;8306; Nacimiento;83
-167;8307; Negrete;83
-168;8308; Quilaco;83
-169;8309; Quilleco;83
-170;8310; San Rosendo;83
-171;8311; Santa Bárbara;83
-172;8312; Tucapel;83
-173;8313; Yumbel;83
-174;8314; Alto Biob�;83
-175;9101; Temuco;91
-176;9102; Carahue;91
-177;9103; Cunco;91
-178;9104; Curarrehue;91
-179;9105; Freire;91
-180;9106; Galvarino;91
-181;9107; Gorbea;91
-182;9108; Lautaro;91
-183;9109; Loncoche;91
-184;9110; Melipeuco;91
-185;9111; Nueva Imperial;91
-186;9112; Padre las Casas;91
-187;9113; Perquenco;91
-188;9114; Pitrufquén;91
-189;9115; Pucón;91
-190;9116; Saavedra;91
-191;9117; Teodoro Schmidt;91
-192;9118; Toltén;91
-193;9119; Vilcún;91
-194;9120; Villarrica;91
-195;9121; Cholchol;91
-196;9201; Angol;92
-197;9202; Collipulli;92
-198;9203; Curacautín;92
-199;9204; Ercilla;92
-200;9205; Lonquimay;92
-201;9206; Los Sauces;92
-202;9207; Lumaco;92
-203;9208; Purén;92
-204;9209; Renaico;92
-205;9210; Traiguén;92
-206;9211; Victoria;92
-207;10101; Puerto Montt;101
-208;10102; Calbuco;101
-209;10103; Cochamó;101
-210;10104; Fresia;101
-211;10105; Frutillar;101
-212;10106; Los Muermos;101
-213;10107; Llanquihue;101
-214;10108; Maullín;101
-215;10109; Puerto Varas;101
-216;10201; Castro;102
-217;10202; Ancud;102
-218;10203; Chonchi;102
-219;10204; Curaco de Véliz;102
-220;10205; Dalcahue;102
-221;10206; Puqueldón;102
-222;10207; Queilén;102
-223;10208; Quellón;102
-224;10209; Quemchi;102
-225;10210; Quinchao;102
-226;10301; Osorno;103
-227;10302; Puerto Octay;103
-228;10303; Purranque;103
-229;10304; Puyehue;103
-230;10305; Río Negro;103
-231;10306; San Juan de la Costa;103
-232;10307; San Pablo;103
-233;10401; Chait�;104
-234;10402; Futaleufú104
-235;10403; Hualaihué;104
-236;10404; Palena;104
-237;11101; Coyhaique;111
-238;11102; Lago Verde;111
-239;11201; Aysén;112
-240;11202; Cisnes;112
-241;11203; Guaitecas;112
-242;11301; Cochrane;113
-243;11302; OHiggins;113
-244;11303; Tortel;113
-245;11401; Chile Chico;114
-246;11402; Río Ibáñez;114
-247;12101; Punta Arenas;121
-248;12102; Laguna Blanca;121
-249;12103; Río Verde;121
-250;12104; San Gregorio;121
-251;12201; Cabo de Hornos;122
-252;12202; Antártica;122
-253;12301; Porvenir;123
-254;12302; Primavera;123
-255;12303; Timaukel;123
-256;12401; Natales;124
-257;12402; Torres del Paine;124
-258;13101; Santiago;131
-259;13102; Cerrillos;131
-260;13103; Cerro Navia;131
-261;13104; Conchalí;131
-262;13105; El Bosque;131
-263;13106; Estación Central;131
-264;13107; Huechuraba;131
-265;13108; Independencia;131
-266;13109; La Cisterna;131
-267;13110; La Florida;131
-268;13111; La Granja;131
-269;13112; La Pintana;131
-270;13113; La Reina;131
-271;13114; Las Condes;131
-272;13115; Lo Barnechea;131
-273;13116; Lo Espejo;131
-274;13117; Lo Prado;131
-275;13118; Macul;131
-276;13119; Maipú;131
-277;13120; Ñuñoa;131
-278;13121; Pedro Aguirre Cerda;131
-279;13122; Peñalolén;131
-280;13123; Providencia;131
-281;13124; Pudahuel;131
-282;13125; Quilicura;131
-283;13126; Quinta Normal;131
-284;13127; Recoleta;131
-285;13128; Renca;131
-286;13129; San Joaquín;131
-287;13130; San Miguel;131
-288;13131; San Ramón;131
-289;13132; Vitacura;131
-290;13201; Puente Alto;132
-291;13202; Pirque;132
-292;13203; San José de Maipo;132
-293;13301; Colina;133
-294;13302; Lampa;133
-295;13303; Tiltil;133
-296;13401; San Bernardo;134
-297;13402; Buin;134
-298;13403; Calera de Tango;134
-299;13404; Paine;134
-300;13501; Melipilla;135
-301;13502; Alhué;135
-302;13503; Curacaví135
-303;13504; María Pinto;135
-304;13505; San Pedro;135
-305;13601; Talagante;136
-306;13602; El Monte;136
-307;13603; Isla de Maipo;136
-308;13604; Padre Hurtado;136
-309;13605; Peñaflor;136
-310;14101; Valdivia;141
-311;14102; Corral;141
-312;14103; Lanco;141
-313;14104; Los Lagos;141
-314;14105; Máfil;141
-315;14106; Mariquina;141
-316;14107; Paillaco;141
-317;14108; Panguipulli;141
-318;14201; La Unión;142
-319;14202; Futrono;142
-320;14203; Lago Ranco;142
-321;14204; R���;142
-322;15101; Arica;151
-323;15102; Camarones;151
-324;15201; Putre;152
-325;15202; General Lagos;152
-326;8401; Chill�;163
-327;8402; Bulnes;163
-328;8403; Cobquecura;162
-329;8404; Coelemu;162
-330;8405; Coihueco;163
-331;8406; Chillán163
-332;8407; El Carmen;163
-333;8408; Ninhue;162
-334;8409; Ñiquén;161
-335;8410; Pemuco;163
-336;8411; Pinto;163
-337;8412; Portezuelo;162
-338;8413; Quill�;162
-339;8414; Quirihue;162
-340;8415; Ránquil;162
-341;8416; San Carlos;161
-342;8417; San Fabi�;161
-343;8418; San Ignacio;163
-344;8419; San Nicol�;161
-345;8420; Treguaco;162
-346;8421; Yungay;163
+﻿id;codigo;nombre;provincia_id
+1;1101;Iquique;1
+2;1107;Alto Hospicio;1
+3;1401;Pozo Almonte;2
+4;1402;Camiña;2
+5;1403;Colchane;2
+6;1404;Huara;2
+7;1405;Pica;2
+8;2101;Antofagasta;3
+9;2102;Mejillones;3
+10;2103;Sierra Gorda;3
+11;2104;Taltal;3
+12;2201;Calama;4
+13;2202;Ollagüe;4
+14;2203;San Pedro de Atacama;4
+15;2301;Tocopilla;5
+16;2302;María Elena;5
+17;3101;Copiapó;6
+18;3102;Caldera;6
+19;3103;Tierra Amarilla;6
+20;3201;Chañaral;7
+21;3202;Diego de Almagro;7
+22;3301;Vallenar;8
+23;3302;Alto del Carmen;8
+24;3303;Freirina;8
+25;3304;Huasco;8
+26;4101;La Serena;9
+27;4102;Coquimbo;9
+28;4103;Andacollo;9
+29;4104;La Higuera;9
+30;4105;Paihuano;9
+31;4106;Vicuña;9
+32;4201;Illapel;10
+33;4202;Canela;10
+34;4203;Los Vilos;10
+35;4204;Salamanca;10
+36;4301;Ovalle;11
+37;4302;Combarbalá;11
+38;4303;Monte Patria;11
+39;4304;Punitaqui;11
+40;4305;Río Hurtado;11
+41;5101;Valparaíso;12
+42;5102;Casablanca;12
+43;5103;Concón;12
+44;5104;Juan Fernández;12
+45;5105;Puchuncaví;12
+46;5107;Quintero;12
+47;5109;Viña del Mar;12
+48;5201;Isla de Pascua;13
+49;5301;Los Andes;14
+50;5302;Calle Larga;14
+51;5303;Rinconada;14
+52;5304;San Esteban;14
+53;5401;La Ligua;15
+54;5402;Cabildo;15
+55;5403;Papudo;15
+56;5404;Petorca;15
+57;5405;Zapallar;15
+58;5501;Quillota;16
+59;5502;La Calera;16
+60;5503;Hijuelas;16
+61;5504;La Cruz;16
+62;5506;Nogales;16
+63;5601;San Antonio;17
+64;5602;Algarrobo;17
+65;5603;Cartagena;17
+66;5604;El Quisco;17
+67;5605;El Tabo;17
+68;5606;Santo Domingo;17
+69;5701;San Felipe;18
+70;5702;Catemu;18
+71;5703;Llay Llay;18
+72;5704;Panquehue;18
+73;5705;Putaendo;18
+74;5706;Santa María;18
+75;5801;Quilpué;19
+76;5802;Limache;19
+77;5803;Olmué;19
+78;5804;Villa Alemana;19
+79;6101;Rancagua;20
+80;6102;Codegua;20
+81;6103;Coinco;20
+82;6104;Coltauco;20
+83;6105;Donihue;20
+84;6106;Graneros;20
+85;6107;Las Cabras;20
+86;6108;Machalí;20
+87;6109;Malloa;20
+88;6110;Mostazal;20
+89;6111;Olivar;20
+90;6112;Peumo;20
+91;6113;Pichidegua;20
+92;6114;Quinta de Tilcoco;20
+93;6115;Rengo;20
+94;6116;Requinoa;20
+95;6117;San Vicente;20
+96;6201;Pichilemu;21
+97;6202;La Estrella;21
+98;6203;Litueche;21
+99;6204;Marchihue;21
+100;6205;Navidad;21
+101;6206;Paredones;21
+102;6301;San Fernando;22
+103;6302;Chépica;22
+104;6303;Chimbarongo;22
+105;6304;Lolol;22
+106;6305;Nancagua;22
+107;6306;Palmilla;22
+108;6307;Peralillo;22
+109;6308;Placilla;22
+110;6309;Pumanque;22
+111;6310;Santa Cruz;22
+112;7101;Talca;23
+113;7102;Constitución;23
+114;7103;Curepto;23
+115;7104;Empedrado;23
+116;7105;Maule;23
+117;7106;Pelarco;23
+118;7107;Pencahue;23
+119;7108;Río Claro;23
+120;7109;San Clemente;23
+121;7110;San Rafael;23
+122;7201;Cauquenes;24
+123;7202;Chanco;24
+124;7203;Pelluhue;24
+125;7301;Curicó;25
+126;7302;Hualañé;25
+127;7303;Licantén;25
+128;7304;Molina;25
+129;7305;Rauco;25
+130;7306;Romeral;25
+131;7307;Sagrada Familia;25
+132;7308;Teno;25
+133;7309;Vichuquén;25
+134;7401;Linares;26
+135;7402;Colbún;26
+136;7403;Longaví;26
+137;7404;Parral;26
+138;7405;Retiro;26
+139;7406;San Javier;26
+140;7407;Villa Alegre;26
+141;7408;Yerbas Buenas;26
+142;8101;Concepción;27
+143;8102;Coronel;27
+144;8103;Chiguayante;27
+145;8104;Florida;27
+146;8105;Hualqui;27
+147;8106;Lota;27
+148;8107;Penco;27
+149;8108;San Pedro de la Paz;27
+150;8109;Santa Juana;27
+151;8110;Talcahuano;27
+152;8111;Tomé;27
+153;8112;Hualpén;27
+154;8201;Lebu;28
+155;8202;Arauco;28
+156;8203;Cañete;28
+157;8204;Contulmo;28
+158;8205;Curanilahue;28
+159;8206;Los Álamos;28
+160;8207;Tirúa;28
+161;8301;Los Álamos;29
+162;8302;Antuco;29
+163;8303;Cabrero;29
+164;8304;Laja;29
+165;8305;Mulchén;29
+166;8306;Nacimiento;29
+167;8307;Negrete;29
+168;8308;Quilaco;29
+169;8309;Quilleco;29
+170;8310;San Rosendo;29
+171;8311;Santa Bárbara;29
+172;8312;Tucapel;29
+173;8313;Yumbel;29
+174;8314;Alto Biobío;29
+175;9101;Temuco;30
+176;9102;Carahue;30
+177;9103;Cunco;30
+178;9104;Curarrehue;30
+179;9105;Freire;30
+180;9106;Galvarino;30
+181;9107;Gorbea;30
+182;9108;Lautaro;30
+183;9109;Loncoche;30
+184;9110;Melipeuco;30
+185;9111;Nueva Imperial;30
+186;9112;Padre las Casas;30
+187;9113;Perquenco;30
+188;9114;Pitrufquén;30
+189;9115;Pucón;30
+190;9116;Saavedra;30
+191;9117;Teodoro Schmidt;30
+192;9118;Toltén;30
+193;9119;Vilcún;30
+194;9120;Villarrica;30
+195;9121;Cholchol;30
+196;9201;Angol;31
+197;9202;Collipulli;31
+198;9203;Curacautín;31
+199;9204;Ercilla;31
+200;9205;Lonquimay;31
+201;9206;Los Sauces;31
+202;9207;Lumaco;31
+203;9208;Purén;31
+204;9209;Renaico;31
+205;9210;Traiguén;31
+206;9211;Victoria;31
+207;10101;Puerto Montt;32
+208;10102;Calbuco;32
+209;10103;Cochamó;32
+210;10104;Fresia;32
+211;10105;Frutillar;32
+212;10106;Los Muermos;32
+213;10107;Llanquihue;32
+214;10108;Maullín;32
+215;10109;Puerto Varas;32
+216;10201;Castro;33
+217;10202;Ancud;33
+218;10203;Chonchi;33
+219;10204;Curaco de Vélez;33
+220;10205;Dalcahue;33
+221;10206;Puqueldón;33
+222;10207;Queilén;33
+223;10208;Quellón;33
+224;10209;Quemchi;33
+225;10210;Quinchao;33
+226;10301;Osorno;34
+227;10302;Puerto Octay;34
+228;10303;Purranque;34
+229;10304;Puyehue;34
+230;10305;Rio Negro;34
+231;10306;San Juan de la Costa;34
+232;10307;San Pablo;34
+233;10401;Chaitén;35
+234;10402;Futaleufú;35
+235;10403;Hualaihué;35
+236;10404;Palena;35
+237;11101;Coyhaique;36
+238;11102;Lago Verde;36
+239;11201;Aysén;37
+240;11202;Cisnes;37
+241;11203;Guaitecas;37
+242;11301;Cochrane;38
+243;11302;OHiggins;38
+244;11303;Tortel;38
+245;11401;Chile Chico;39
+246;11402;Río Ibáñez;39
+247;12101;Punta Arenas;40
+248;12102;Laguna Blanca;40
+249;12103;Río Verde;40
+250;12104;San Gregorio;40
+251;12201;Cabo de Hornos;41
+252;12202;Antártica;41
+253;12301;Porvenir;42
+254;12302;Primavera;42
+255;12303;Timaukel;42
+256;12401;Natales;43
+257;12402;Torres del Paine;43
+258;13101;Santiago;44
+259;13102;Cerrillos;44
+260;13103;Cerro Navia;44
+261;13104;Conchalí;44
+262;13105;El Bosque;44
+263;13106;Estación Central;44
+264;13107;Huechuraba;44
+265;13108;Independencia;44
+266;13109;La Cisterna;44
+267;13110;La Florida;44
+268;13111;La Granja;44
+269;13112;La Pintana;44
+270;13113;La Reina;44
+271;13114;Las Condes;44
+272;13115;Lo Barnechea;44
+273;13116;Lo Espejo;44
+274;13117;Lo Prado;44
+275;13118;Macul;44
+276;13119;Maipú;44
+277;13120;Ñuñoa;44
+278;13121;Pedro Aguirre Cerda;44
+279;13122;Peñalolén;44
+280;13123;Providencia;44
+281;13124;Pudahuel;44
+282;13125;Quilicura;44
+283;13126;Quinta Normal;44
+284;13127;Recoleta;44
+285;13128;Renca;44
+286;13129;San Joaquín;44
+287;13130;San Miguel;44
+288;13131;San Ramón;44
+289;13132;Vitacura;44
+290;13201;Puente Alto;45
+291;13202;Pirque;45
+292;13203;San José de Maipo;45
+293;13301;Colina;46
+294;13302;Lampa;46
+295;13303;Tiltil;46
+296;13401;San Bernardo;47
+297;13402;Buin;47
+298;13403;Calera de Tango;47
+299;13404;Paine;47
+300;13501;Melipilla;48
+301;13502;Alhué;48
+302;13503;Curacaví;48
+303;13504;María Pinto;48
+304;13505;San Pedro;48
+305;13601;Talagante;49
+306;13602;El Monte;49
+307;13603;Isla de Maipo;49
+308;13604;Padre Hurtado;49
+309;13605;Peñaflor;49
+310;14101;Valdivia;50
+311;14102;Corral;50
+312;14103;Lanco;50
+313;14104;Los Lagos;50
+314;14105;Máfil;50
+315;14106;Mariquina;50
+316;14107;Paillaco;50
+317;14108;Panguipulli;50
+318;14201;La Unión;51
+319;14202;Futrono;51
+320;14203;Lago Ranco;51
+321;14204;Río Bueno;51
+322;15101;Arica;52
+323;15102;Camarones;52
+324;15201;Putre;53
+325;15202;General Lagos;53
+326;8401;Chillán;56
+327;8402;Bulnes;56
+328;8403;Cobquecura;55
+329;8404;Coelemu;55
+330;8405;Coihueco;56
+331;8406;Chillán Viejo;56
+332;8407;El Carmen;56
+333;8408;Ninhue;55
+334;8409;Ñiquén;54
+335;8410;Pemuco;56
+336;8411;Pinto;56
+337;8412;Portezuelo;55
+338;8413;Quirihue;55
+339;8414;Quirihue;55
+340;8415;Ránquil;55
+341;8416;San Carlos;54
+342;8417;San Fabián;54
+343;8418;San Ignacio;56
+344;8419;San Nicolás;54
+345;8420;Treguaco;55
+346;8421;Yungay;56
