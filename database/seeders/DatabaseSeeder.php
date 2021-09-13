@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         $this->call(TipoAutoSeeder::class);
         $this->call(MarcaAutoSeeder::class);
         $this->call(ModeloAutoSeeder::class);
-
+        $this->call(TipoClienteNormativoSeeder::class);
 
     }
 }
