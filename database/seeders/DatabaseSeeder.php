@@ -30,6 +30,6 @@ class DatabaseSeeder extends Seeder
         $this->call(MarcaAutoSeeder::class);
         $this->call(ModeloAutoSeeder::class);
         $this->call(TipoClienteNormativoSeeder::class);
-
+        $this->call(TipoSociedadSeeder::class);
     }
 }
